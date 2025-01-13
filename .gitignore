@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environments
+env/
+venv/
+.venv/
+
+# OS / IDE directories
+.DS_Store
+.vscode/
+
+# Logs
+*.log
+
+# Data
+data/*.parquet
+data/raw_band_data/
+*.h5
+*.hdf5
+
+# Misc
+*.swp
