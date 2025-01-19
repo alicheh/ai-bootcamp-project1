@@ -1,21 +1,24 @@
 # AI Bootcamp Project 1
 
 ## Project Overview
-This repository hosts our AI project for data cleaning and classification, developed during a bootcamp by a team of four. It uses Python and Jupyter notebooks for data processing, model training, and performance evaluation.
+This repository hosts our project1 in Quera AI Bootcamp. It uses Python and Jupyter notebooks for data processing, model training, and performance evaluation.
+
 
 ## Repository Structure
 ```
 .
 ├── data/
-│   ├── small_dataset.csv
-│   └── processed_data.csv
+│   ├── raw_band_data/ (.parquets, locally processed.)
+│   ├── HBN.csv (data of tests, ...)
+│   ├── data_dictionary.csv
+│   └── all_data_steps_light.csv (result of processing raw_band_data)
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   └── 03_model_training.ipynb
+│   ├── ds_q17.ipynb (Descriptive Statistics Questions)
+│   ├── hypo_test13.ipynb (Hypothesis Tests)
+│   ├── ml_classification_ssi.ipynb (Machine Learning part)
+│   └── eda_hbn.ipynb (Exploratory Data Analysis of HBN.csv)
 ├── scripts/
-│   ├── data_cleaning.py
-│   └── model_training.py
+│   └── process_parquets.py
 ├── .gitignore
 └── README.md
 ```
@@ -28,7 +31,7 @@ This repository hosts our AI project for data cleaning and classification, devel
 
 ### 1. Cloning the Repository
 ```bash
-git clone https://github.com/your-organization/your-repo-name.git
+git clone https://github.com/alicheh/ai-bootcamp-project1.git
 cd your-repo-name
 ```
 
